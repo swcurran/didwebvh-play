@@ -1,8 +1,23 @@
 {
     "@context": [
-        "https://www.w3.org/ns/did/v1"
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/multikey/v1"
     ],
     "id": "did:web:swcurran.github.io:didwebvh-play",
+    "authentication": [
+        "did:web:swcurran.github.io:didwebvh-play#z6Mkqw9Yh91VGx9ubj5AYuTsxiXPWg9uwQB6ATjjG33xqSUN"
+    ],
+    "assertionMethod": [
+        "did:web:swcurran.github.io:didwebvh-play#z6Mkqw9Yh91VGx9ubj5AYuTsxiXPWg9uwQB6ATjjG33xqSUN"
+    ],
+    "verificationMethod": [
+        {
+            "id": "did:web:swcurran.github.io:didwebvh-play#z6Mkqw9Yh91VGx9ubj5AYuTsxiXPWg9uwQB6ATjjG33xqSUN",
+            "type": "Multikey",
+            "controller": "did:web:swcurran.github.io:didwebvh-play",
+            "publicKeyMultibase": "z6Mkqw9Yh91VGx9ubj5AYuTsxiXPWg9uwQB6ATjjG33xqSUN"
+        }
+    ],
     "alsoKnownAs": [
         "did:webvh:QmX9MbW39aBkanEuM2vdjogZfFMqEt6MqP8r2VahoVWprX:swcurran.github.io:didwebvh-play"
     ]
